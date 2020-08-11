@@ -14,17 +14,18 @@ void lottery(int maxnum, int trails){
 	srand(time(NULL));
 	
 	int *balls = new int[trails];
+	
+	
 	for (int i=0; i<trails; i++){
 		balls[i] = rand()%maxnum; 
-		if ( i==0)
-				continue;
-		
-		for (int j=0; j < i ; j++)			
+			
+		for (int j=0; (j < i) && (i>0) ; j++)			
 			if (balls[i] == balls[j])
 				i--;
+				
+		cout << balls[i] << endl;
 		}
-	for (int i=0; i<trails; i++)
-			cout << balls[i] << endl;
+			
 	delete [] balls;
 	
 	}
