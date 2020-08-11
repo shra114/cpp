@@ -16,7 +16,6 @@ void lottery(int maxnum, int trails){
 	int *balls = new int[trails];
 	for (int i=0; i<trails; i++){
 		balls[i] = rand()%maxnum; 
-		cout << balls[i] << endl;
 		if ( i==0)
 				continue;
 		
@@ -24,6 +23,8 @@ void lottery(int maxnum, int trails){
 			if (balls[i] == balls[j])
 				i--;
 		}
+	for (int i=0; i<trails; i++)
+			cout << balls[i] << endl;
 	delete [] balls;
 	
 	}
