@@ -19,7 +19,7 @@ void lottery(int maxnum, int trails){
 	for (int i=0; i<trails; i++){
 		balls[i] = rand()%maxnum; 
 			
-		for (int j=0; (j < i) && (i>0) ; j++)		// compare from element1 not from element0	
+		for (int j=0; j < i ; j++)		// compare from element1 not from element0, (j<i) && (i>0)
 			if (balls[i] == balls[j])
 				i--;
 				
