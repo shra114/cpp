@@ -1,0 +1,7 @@
+http://www.cppforschool.com/projects.html
+
+Below are the links for the 4 projects that has to be done:
+http://www.cppforschool.com/project/banking-system-project.html
+http://www.cppforschool.com/project/library-management-system.html
+http://www.cppforschool.com/project/super-market-billing.html
+http://www.cppforschool.com/project/casino-game-project.html
