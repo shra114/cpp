@@ -78,3 +78,11 @@ psuedo random vs random
 		srand(400); //400 is seed
 	send time as seed 
 		srand(time(NULL));
+////////////////////////
+type casting
+double a = 5.5;
+cout << (int) a ; 
+b = (double) a/b;
+c++ version - static_cast<double> a;
+////////////////////////
+		
