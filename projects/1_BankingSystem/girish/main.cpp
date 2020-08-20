@@ -1,24 +1,31 @@
 #include <iostream>
-#include "account.h"
+#include"AccountStatement.h"
+#include"BasicAccount.h"
+#include"SavingsAccount.h"
 
 using namespace std;
 
 int main()
 {
-    Account a("Isaac Newton", "398744441210");
+    /*
+    AccountStatement a;
 
-    a.getAccountInfo();
+    a.printMinStatement();
+    a.addTransaction(1000);
+    a.addTransaction(500);
+    a.addTransaction(800);
+    a.addTransaction(2000);
+    a.addTransaction(1500);
+    a.printMinStatement();
+    */
 
-    cout << "Account Number  : " << a.getAccountNumber() << endl;
-    cout << "Account Balance : " << a.getAccountBalance() << endl;
-    a.creditBalance(1000);
-    cout << "Account Balance : " << a.getAccountBalance() << endl;
-    a.creditBalance(500);
-    cout << "Account Balance : " << a.getAccountBalance() << endl;
-    a.creditBalance(-750);
-    cout << "Account Balance : " << a.getAccountBalance() << endl;
+    BasicAccount a("Isaac Newton");
 
-    a.getAccountInfo();
+    a.showCustomerInfo();
+
+    SavingsAccount b("Elon Musk");
+
+    b.showCustomerInfo();
 
     cout << "Hello world!" << endl;
     return 0;

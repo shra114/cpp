@@ -13,6 +13,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-g" />
+					<Add directory="include" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -22,6 +23,7 @@
 				<Option compiler="gcc" />
 				<Compiler>
 					<Add option="-O2" />
+					<Add directory="include" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -32,9 +34,13 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="account.cpp" />
-		<Unit filename="account.h" />
+		<Unit filename="include/AccountStatement.h" />
+		<Unit filename="include/BasicAccount.h" />
+		<Unit filename="include/SavingsAccount.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/AccountStatement.cpp" />
+		<Unit filename="src/BasicAccount.cpp" />
+		<Unit filename="src/SavingsAccount.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
