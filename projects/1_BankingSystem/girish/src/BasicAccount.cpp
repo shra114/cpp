@@ -5,11 +5,11 @@ BasicAccount::BasicAccount()
     // Constructor
     cifNum = -1;
     accountNum = -1;
-    accountType = "Savings";
-    ifscCode = "BNK0001";
-    customerName = "NULL";
-    dob = {15, 8, 1991};
-    phone = -1;
+    accountType = "Not found";
+    ifscCode = "Not found";
+    customerName = "Not found";
+    dob = {0, 0, 0};
+    phone = 0;
 }
 
 BasicAccount::~BasicAccount()
@@ -51,7 +51,7 @@ void BasicAccount::setDob(int day, int month, int year)
     this->dob.year = year;
 }
 
-void BasicAccount::setPhoneNumber(long int phone)
+void BasicAccount::setPhoneNumber(unsigned long int phone)
 {
     this->phone = phone;
 }
@@ -87,7 +87,7 @@ dob_t BasicAccount::getDob()
     return this->dob;
 }
 
-long int BasicAccount::getPhoneNumber()
+unsigned long int BasicAccount::getPhoneNumber()
 {
     return this->phone;
 }

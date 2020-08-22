@@ -35,9 +35,13 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/BasicAccount.h" />
+		<Unit filename="include/FixedAccount.h" />
+		<Unit filename="include/OpenAccount.h" />
 		<Unit filename="include/SavingsAccount.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/BasicAccount.cpp" />
+		<Unit filename="src/FixedAccount.cpp" />
+		<Unit filename="src/OpenAccount.cpp" />
 		<Unit filename="src/SavingsAccount.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

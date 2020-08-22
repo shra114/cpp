@@ -28,7 +28,7 @@ class BasicAccount
         // Date of Birth of customer
         dob_t dob;
         // Customer phone number
-        long int phone;
+        unsigned long int phone;
 
     public:
         BasicAccount();
@@ -41,7 +41,7 @@ class BasicAccount
         void setAccountType(string);
         void setIfscCode(string);
         void setDob(int, int, int);
-        void setPhoneNumber(long int);
+        void setPhoneNumber(unsigned long int);
 
         // Get functions
         string getCustomerName();
@@ -50,7 +50,7 @@ class BasicAccount
         string getAccountType();
         string getIfscCode();
         dob_t getDob();
-        long int getPhoneNumber();
+        unsigned long int getPhoneNumber();
 
         // Show Customer Info
         void showCustomerInfo();
