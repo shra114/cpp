@@ -6,13 +6,13 @@
 
 class SavingsAccount : public BasicAccount
 {
-    public:
-        SavingsAccount(string);
-        virtual ~SavingsAccount();
-
-    protected:
-
     private:
+        int roiPercentage;
+        int maxTxnLimit;
+
+    public:
+        SavingsAccount();
+        virtual ~SavingsAccount();
 };
 
 #endif // SAVINGSACCOUNT_H

@@ -5,6 +5,13 @@
 
 using namespace std;
 
+typedef struct dob
+{
+    int day;
+    int month;
+    int year;
+}dob_t;
+
 class BasicAccount
 {
     private:
@@ -19,13 +26,33 @@ class BasicAccount
         // Account holder name
         string customerName;
         // Date of Birth of customer
-        long int dob;
+        dob_t dob;
         // Customer phone number
         long int phone;
 
     public:
-        BasicAccount(string customerName, string ifscCode="BNK20001", long int dob=0, long int phone=0, string accountType="Savings");
+        BasicAccount();
         virtual ~BasicAccount();
+
+        // Set functions
+        void setCustomerName(string);
+        void setCIFnumber();
+        void setAccountNumber();
+        void setAccountType(string);
+        void setIfscCode(string);
+        void setDob(int, int, int);
+        void setPhoneNumber(long int);
+
+        // Get functions
+        string getCustomerName();
+        int getCIFnumber();
+        long int getAccountNumber();
+        string getAccountType();
+        string getIfscCode();
+        dob_t getDob();
+        long int getPhoneNumber();
+
+        // Show Customer Info
         void showCustomerInfo();
 };
 

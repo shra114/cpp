@@ -1,8 +1,10 @@
 #include "SavingsAccount.h"
 
-SavingsAccount::SavingsAccount(string customerName) : BasicAccount(customerName)
+SavingsAccount::SavingsAccount() : BasicAccount()
 {
-    //ctor
+    // Constructor
+    roiPercentage = 3;
+    maxTxnLimit = 10000;
 }
 
 SavingsAccount::~SavingsAccount()
