@@ -34,11 +34,9 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="include/AccountStatement.h" />
 		<Unit filename="include/BasicAccount.h" />
 		<Unit filename="include/SavingsAccount.h" />
 		<Unit filename="main.cpp" />
-		<Unit filename="src/AccountStatement.cpp" />
 		<Unit filename="src/BasicAccount.cpp" />
 		<Unit filename="src/SavingsAccount.cpp" />
 		<Extensions>
