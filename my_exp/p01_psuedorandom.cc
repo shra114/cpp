@@ -4,7 +4,7 @@ using namespace std;
 void lottery(int, int);
 
 int main(){
-	lottery(49,6);
+	lottery(8,6);
 	return 0;
 }
 
@@ -15,7 +15,6 @@ void lottery(int maxnum, int trails){
 	
 	int *balls = new int[trails];
 	
-	
 	for (int i=0; i<trails; i++){
 		balls[i] = rand()%maxnum; 
 			
@@ -23,9 +22,10 @@ void lottery(int maxnum, int trails){
 			if (balls[i] == balls[j])
 				i--;
 				
-		cout << balls[i] << endl;
 		}
 			
+	for (int i=0; i<trails; i++)
+		cout << balls[i] << endl;
 	delete [] balls;
 	
 	}
