@@ -154,3 +154,16 @@ class A: public B
 		
 		objA.B::fun();
 ////////////////////////////////////////////////////////////////////////////
+///////Operatore overloading ; // need to revisit this TODO
+
+text3 = text1 + text2; 
+string --- class. 
+classA::operator int(){
+	return this->nr;
+	}
+
+classA a;
+int b = a;
+
+
+int operator (in
