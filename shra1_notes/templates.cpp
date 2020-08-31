@@ -5,9 +5,10 @@ generalization of functions
 template <typename T> 
 T add( T var1, T var2)
 {
-	return var1+var2;
+	return var1+var2; 	
 	}
 
 
 //class templates
 
+template <typename T> 

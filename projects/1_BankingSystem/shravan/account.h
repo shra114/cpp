@@ -18,7 +18,7 @@ public:
 	void withdraw (double );
 	void transfer (double , int );
 	void get_statement();
-	void transfer (Account, double);
+	void transfer (Account &, double);
 	~Account ();
 
 };

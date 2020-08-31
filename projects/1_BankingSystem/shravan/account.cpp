@@ -47,7 +47,7 @@ void Account::withdraw(double cash){
 	this->statement += "\nBalance ="+to_string(this->balance);
 
 }
-void Account::transfer(Account tmp, double cash){
+void Account::transfer(Account & tmp, double cash){
 	if(cash > this->balance)
 	{
 		cout << "ERROR: insufficient cash to transfer " << endl;
