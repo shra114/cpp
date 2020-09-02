@@ -1,0 +1,49 @@
+8
+What is capital of India ?
+Mumbai
+Bangalore
+New Delhi
+Chennai
+C
+Who is the current prime minister of India ?
+Narendra Modi
+Amit Shah
+Rajinikanth
+P V Narasimha Rao
+A
+Which is the national animal of India?
+Lion
+Tiger
+Cheetah
+Elephant
+B
+What is national bird of India?
+Peacock
+Parrot
+Pegion
+Sparrow
+A
+Select the fruit from below options
+Potato
+Carrot
+Grapes
+Cucumber
+C
+Select the color of carrot from below options
+Orange
+Yellow
+Black
+Blue
+A
+Select the approximate shape of Orange fruit
+Prism
+Spherical
+Cubical
+Pipe
+B
+What shape has five sides. Chose from below
+Triangle
+Square
+Pentagon
+Circle
+C
